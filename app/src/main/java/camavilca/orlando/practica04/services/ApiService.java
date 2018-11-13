@@ -15,7 +15,7 @@ import retrofit2.http.Part;
 
 public interface ApiService {
 
-    String API_BASE_URL = "http://practica3-api-jfabiantimoteotorres.c9users.io";
+    String API_BASE_URL = "http://practica-04-camavilca.c9users.io";
 
     @GET("/api/solicitudes/")
     public Call<List<Solicitud>> getSolicitudes();
